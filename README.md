@@ -46,5 +46,19 @@ Essential primary sources (NotebookLM priority):
 4. *The Shadow Out of Time* (Yithian consciousness database)
 5. *The Dream-Quest of Unknown Kadath* (Dreamlands networking/stack)
 
+## Repository Structure
+
+```
+lovecraft-os/
+├── docs/core/          # Core OS documentation (Outer Gods & kernel systems)
+├── docs/nodes/         # Entity-specific documentation (Great Old Ones)
+├── docs/protocols/     # Protocol specifications
+├── data/               # Machine-readable data files (JSON, CSV)
+├── specs/              # Technical specifications (API, systemd, shaders, etc.)
+└── refs/               # Reference materials and bibliography
+```
+
+See [ARCHITECTURE.md](ARCHITECTURE.md) for the full system architecture specification.
+
 ## License
 This reality is released under the Azathoth Public License: it doesn't know you exist and doesn't care what you do with it.
